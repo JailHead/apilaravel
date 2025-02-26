@@ -10,7 +10,8 @@
         "laravel/framework": "^11.31",
         "laravel/jetstream": "^5.3",
         "laravel/tinker": "^2.9",
-        "laravel/ui": "^4.6"
+        "laravel/ui": "^4.6",
+        "firebase/php-jwt": "^3.0.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
@@ -26,7 +27,10 @@
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
-        }
+        },
+        "files": [
+            "app/Helpers/JwtAuth.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {

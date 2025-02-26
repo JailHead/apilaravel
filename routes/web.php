@@ -15,3 +15,4 @@ Route::post('/api/registro','App\Http\Controllers\UserController@register');
 Route::post('/api/acceso','App\Http\Controllers\UserController@login');
 
 Route::resource('/api/carros', 'App\Http\Controllers\CarController');
+
